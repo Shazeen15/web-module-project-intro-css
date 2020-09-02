@@ -1,0 +1,110 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* Color the background of items in the navigation bar and footer with the following colors:
+ Plan your Visit: #FF764E
+ Learn About the Park: #5ED3EB
+ Get Involved: #FFCD69
+ Change all font colors and styles according to design file
+ Yosemite Park Guide font is called Chelsea Market and can be found on google fonts
+ All other text is Roboto Mono, also available on google fonts
+ font-family: 'Chelsea Market', cursive;
+ font-family: 'Roboto Mono', monospace;
+ Color the background of the main text body with #DDB9A3
+ Color the background of the footer with #F9E7DC
+ Bold the words "current fire restrictions" and "park entrance fee" according to the design file
+ Apply box model properties (content, padding, margin, and border) to all content such that your webpage matches the design file. This will include at least:
+ A round image in the header
+ Round corners on navigation and footer items
+ Header image and text side by side
+ Centered content and margins around content
+ Footer image positioning */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  box-sizing: border-box;
+  /*hey browser when I give an element a width, I only want it to be as big as I've told it to be, if I add padding or a border apply that within the width I've given the element. The element shouldn't grow*/
+  padding: 0;
+  margin: 0;
+  max-width: 100%;
+  /*you can never be bigger than your parent*/
+}
+
+html {
+  font-size: 62.5%;
+  /*the default browser font size is 16px - this makes it so that 1 rem = 10px - so it's easier math*/
+}
+
+/*general styles*/
+body {
+  font-size: 1.6rem;
+  line-height: 1.5;
+  font-family: 'Quicksand', sans-serif;
+  color: #4f4f4f;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Chelsea Market', cursive;
+}
+
+a {
+  text-decoration: none;
+  color: #4f4f4f;
+}
+
+section {
+  padding: 4% 0;
+}
+
+img {
+  max-width: 100%;
+}
