@@ -172,6 +172,7 @@ body {
   font-family: 'Roboto Mono', monospace;
   color: #4f4f4f;
   margin: 50px;
+  widows: 100%;
 }
 
 h1,
@@ -194,11 +195,14 @@ section {
 
 /* header styles */
 #home {
+  width: 80%;
+  margin: 0 auto;
   text-align: center;
 }
 
 #home nav .links {
-  margin: 5%;
+  width: 80%;
+  margin: 5% auto;
   text-align: center;
 }
 
@@ -236,7 +240,7 @@ section {
 .header-decription {
   display: inline-block;
   text-align: center;
-  margin: 5%;
+  margin: 2%;
 }
 
 .header-decription h1 {
@@ -245,4 +249,29 @@ section {
 
 .header-decription p {
   margin: 2%;
+}
+
+/* main section */
+.park-description {
+  background: #DDB9A3;
+  padding: 1.3%;
+}
+
+.park-description p.par1 {
+  margin-bottom: 1.2%;
+}
+
+.guidelines {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.guidelines img {
+  width: 10%;
+  margin: 1.2%;
+}
+
+.fire-guide p span {
+  font-weight: bold;
 }
