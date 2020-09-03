@@ -200,11 +200,6 @@ main {
 }
 
 /* header styles */
-#home {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-}
 
 #home nav .links {
   width: 80%;
@@ -212,12 +207,11 @@ main {
   text-align: center;
 }
 
-#home nav .links a {
+.links a {
   margin: 5%;
   color: #fff;
   padding: 1.5%;
   border-radius: 20px;
-  width: 50px;
 }
 
 
@@ -304,7 +298,6 @@ p span {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: unset;
-  /* background-attachment: fixed; */
   margin: 0;
   padding: 0;
 }
@@ -323,13 +316,5 @@ p span {
 .footer-links {
   text-align: center;
   background: #F9E7DC;
-  height: 100px;
   padding: 5%;
-}
-
-.links a {
-  margin: 5%;
-  color: #fff;
-  padding: 1.5%;
-  border-radius: 20px;
 }
