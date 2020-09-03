@@ -193,6 +193,12 @@ section {
   padding: 4% 0;
 }
 
+header,
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+
 /* header styles */
 #home {
   width: 80%;
@@ -229,7 +235,7 @@ section {
 
 .header-img {
   display: inline-block;
-  width: 200px;
+  width: 290px;
 }
 
 .header-img img {
@@ -270,11 +276,16 @@ section {
 }
 
 .guidelines img {
-  width: 10%;
+  width: 20%;
   margin: 1.2%;
 }
 
-.fire-guide p span {
+.guidelines p {
+  width: 50%;
+  margin: 0 auto;
+}
+
+p span {
   font-weight: bold;
 }
 
