@@ -201,10 +201,9 @@ main {
 
 /* header styles */
 
-#home nav .links {
-  width: 80%;
-  margin: 5% auto;
+.header-links {
   text-align: center;
+  margin: 5%;
 }
 
 .links a {
@@ -229,7 +228,7 @@ main {
 
 .header-img {
   display: inline-block;
-  width: 290px;
+  width: 200px;
 }
 
 .header-img img {
